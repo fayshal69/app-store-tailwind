@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- daisy ui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <header class="mb-32 md:mb-48 lg:mb-64">
+        <!-- navbar section -->
+        <nav class="px-5 lg:px-0 bg-[#0E1133] py-6 text-white text-lg font-semibold">
+            <div class="container mx-auto">
+                <div class="flex justify-between items-center">
+                    <!-- left navbar div -->
+                    <div class="flex items-center gap-10">
+                        <div>
+                            <img src="assets/logo-3.png" alt="">
+                        </div>
+                        <div class="space-x-5 hidden lg:block">
+                            <a href="">Home</a>
+                            <a href="">About</a>
+                            <a href="">Blog</a>
+                            <a href="">Services</a>
+                            <a href="">Contact</a>
+                        </div>
+                    </div>
+                    <!-- right navbar div -->
+                    <div class="space-x-4 hidden lg:block">
+                        <button class="py-3 px-6 border-2 border-[#ff6b58] rounded-lg hover:bg-[#ff6b58]  transition-all duration-200">Login</button>
+                        <button class="py-3 px-6 border-2 bg-[#ff6b58] border-[#ff6b58] rounded-lg hover:bg-transparent transition-all duration-200">Get Started</button>
+                    </div>
+                    <!-- right nav menu bar -->
+                    <div class="dropdown dropdown-end lg:hidden">
+                        <div tabindex="0" role="button" class="btn btn-ghost rounded-btn">
+                            <img src="assets/more.png" class="w-8">
+                        </div>
+                        <ul tabindex="0" class="menu dropdown-content z-[1] p-2 shadow bg-blue-100 text-black rounded-box w-52 mt-4">
+                          <li><a>Home</a></li> 
+                          <li><a>About</a></li>
+                          <li><a>Blog</a></li>
+                          <li><a>Services</a></li>
+                          <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- banner section -->
+        <div class="banner bg-blue-950">
+            <div class="container mx-auto px-5 lg:px-0 pt-12 lg:pt-24 text-white text-center space-y-7">
+                <!-- banner text -->
+                <h1 class="text-2xl lg:text-6xl font-bold">Creative way to <br>Showcaes your <span class="text-[#ff6b58]">App</span></h1>
+                <p class="opacity-80">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <!-- button div -->
+                <div class="space-x-2 lg:space-x-4 font-medium text-lg">
+                    <button class="py-2 px-4 lg:py-3 lg:px-6 border-2 bg-[#ff6b58] border-[#ff6b58] rounded-lg hover:bg-transparent transition-all duration-200">Get a Quote</button>
+                    <button class="py-2 px-4 lg:py-3 lg:px-6 border-2 border-[#ff6b58] rounded-lg hover:bg-[#ff6b58]  transition-all duration-200">
+                        <img src="assets/play-button.png" class="inline">
+                        Play Video
+                    </button>
+                </div>
+                <!-- banner phone image -->
+                <div class="translate-y-24 md:translate-y-44 lg:translate-y-56">
+                    <img src="assets/hero-thumb-4.png" class="inline">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main section -->
+    <main class="container mx-auto px-5 lg:px-0">
+
+        <section class="mb-12 md:mb-24 lg:mb-52">
+            <!-- section content -->
+            <div class="text-center space-y-4 lg:space-y-7">
+                <h1 class="text-2xl lg:text-4xl font-bold">What you can do</h1>
+                <p class="w-full md:w-4/5 lg:w-1/2 mx-auto opacity-80">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, porro dolor iste rem est eius qui atque quia delectus reiciendis aliquid, nemo minus. Ratione, fugiat.</p>
+            </div>
+            <!-- section card  -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-6 lg:mt-12">
+                <!-- card 1 -->
+                <div class="p-8 text-center space-y-4 shadow-lg rounded-2xl">
+                    <img src="assets/play-store.png" class="inline p-5 rounded-full bg-red-300">
+                    <h3 class="text-2xl font-bold">Easy To Use</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur qui reiciendis dolorum soluta, voluptatibus officiis nostrum voluptates eum optio sit.</p>
+                    <button class="btn btn-ghost">Read More</button>
+                </div>
+                <!-- card 2 -->
+                <div class="p-8 text-center space-y-4 shadow-lg rounded-2xl">
+                    <img src="assets/play-store.png" class="inline p-5 rounded-full bg-yellow-300">
+                    <h3 class="text-2xl font-bold">Easy To Use</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur qui reiciendis dolorum soluta, voluptatibus officiis nostrum voluptates eum optio sit.</p>
+                    <button class="btn btn-ghost">Read More</button>
+                </div>
+                <!-- card 3 -->
+                <div class="p-8 text-center space-y-4 shadow-lg rounded-2xl">
+                    <img src="assets/play-store.png" class="inline p-5 rounded-full bg-sky-300">
+                    <h3 class="text-2xl font-bold">Easy To Use</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur qui reiciendis dolorum soluta, voluptatibus officiis nostrum voluptates eum optio sit.</p>
+                    <button class="btn btn-ghost">Read More</button>
+                </div>
+                <!-- card 4 -->
+                <div class="p-8 text-center space-y-4 shadow-lg rounded-2xl">
+                    <img src="assets/play-store.png" class="inline p-5 rounded-full bg-lime-300">
+                    <h3 class="text-2xl font-bold">Easy To Use</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur qui reiciendis dolorum soluta, voluptatibus officiis nostrum voluptates eum optio sit.</p>
+                    <button class="btn btn-ghost">Read More</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    
+    
+</body>
+</html>
